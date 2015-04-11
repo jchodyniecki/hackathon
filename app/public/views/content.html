@@ -1,0 +1,21 @@
+
+<nav id="crock_nav" class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header"><a href="#" class="navbar-brand"><img src="../img/crock_logo.png" height="40" width="240"/></a></div>
+  </div>
+</nav>
+<div class="container">
+  <div id="crock_picture_container" class="jumbotron"><img src="../img/blank.jpg" id="crock_picture"/></div>
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="btn-group">
+        <label ng-model="checkModel" btn-checkbox="" class="btn btn-primary">
+          <h1>{{checkModelStatus}}</h1>
+        </label>
+      </div>
+    </div>
+    <div class="col-sm-8">
+      <pagination direction-links="false" total-items="10" ng-model="currentPage" num-pages="smallnumPages"></pagination>
+    </div>
+  </div>
+</div>

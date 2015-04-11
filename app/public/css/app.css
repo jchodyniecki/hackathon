@@ -1,0 +1,43 @@
+body {
+  background-color: #e74c3c; }
+
+.container {
+  width: 900px; }
+
+.navbar-default {
+  background-color: #c0392b;
+  height: 60px;
+  border-radius: 0;
+  border: 0px; }
+
+.col-sm-4 {
+  background-color: #c0392b;
+  border-top-left-radius: 25px;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.col-sm-8 {
+  background-color: #c0392b;
+  border-top-right-radius: 25px;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.navbar-default div.navbar-collapse {
+  border-top: none;
+  box-shadow: none;
+  border: 0px; }
+
+#crock_picture_container {
+  border-radius: 25px;
+  background-color: #c0392b; }
+
+#crock_picture {
+  border-radius: 25px;
+  height: 90%;
+  width: 90%;
+  display: block;
+  margin: auto; }

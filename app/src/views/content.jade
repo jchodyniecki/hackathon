@@ -1,0 +1,15 @@
+nav.navbar.navbar-default(id="crock_nav")
+  .container-fluid
+    .navbar-header
+      a.navbar-brand(href='#')
+        img(src="../img/crock_logo.png" height="40" width="240")
+.container
+  .jumbotron(id="crock_picture_container")
+    img(src="../img/blank.jpg" id="crock_picture")
+  .row
+    .col-sm-4
+      .btn-group
+        label.btn.btn-primary(ng-model='checkModel', btn-checkbox='')
+          h1 {{checkModelStatus}}
+    .col-sm-8
+      pagination(direction-links='false', total-items=10, ng-model='currentPage', num-pages='smallnumPages')
